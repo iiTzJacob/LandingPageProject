@@ -76,7 +76,9 @@ img {
 button {
     background: #3882f6;
     border-radius: 5px;
+    border-style: none;
     padding: 6px 18px;
+    color: white;
 }
 
 .information {
