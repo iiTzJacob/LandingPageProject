@@ -15,7 +15,7 @@ body {
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
-    margin: 0 48px;
+    margin: 0 150px;
 }
 
 .logo {
@@ -37,4 +37,44 @@ a {
 
 li {
     list-style: none;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    margin: 0 150px;
+}
+
+img {
+    display: flex;
+    height: auto;
+    width: 175px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.main.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.description {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882f6;
+    border-radius: 5px;
+    padding: 6px 18px;
 }
